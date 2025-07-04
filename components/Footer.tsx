@@ -17,12 +17,13 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Excited to boost your{" "}
+          <span className="text-purple">digital brand</span>? I’m just a click
+          away.
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Drop me a line and let’s chat about how my skills can drive your
+          success.
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <MagicButton
@@ -32,10 +33,10 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
+      <div className="flex mt-16 md:flex-row flex-col justify-end items-center">
+        {/* <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Adrian Hajdin
-        </p>
+        </p> */}
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
